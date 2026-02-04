@@ -1,5 +1,5 @@
 {
-    "name": "J4Wx/laravel-actions-scramble",
+    "name": "j4wx/laravel-actions-scramble",
     "description": "Extensions for Scramble to enable automatic parsing of routes when using laravel actions",
     "type": "library",
     "license": "MIT",
