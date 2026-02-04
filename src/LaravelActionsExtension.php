@@ -1,6 +1,6 @@
 <?php
 
-namespace Tommica\LaravelActionsScramble;
+namespace J4Wx\LaravelActionsScramble;
 
 use Dedoc\Scramble\Infer\Reflector\ClassReflector;
 use Dedoc\Scramble\Support\Generator\Operation;
@@ -13,7 +13,7 @@ use PhpParser\NodeFinder;
 
 class LaravelActionsExtension extends RequestBodyExtension
 {
-    public function handle(Operation $operation, RouteInfo $routeInfo)
+    public function handle(Operation $operation, RouteInfo $routeInfo): void
     {
         if ($routeInfo->methodName() !== 'asController' || $routeInfo->getMethodType()->name !== '__invoke') {
             return;
