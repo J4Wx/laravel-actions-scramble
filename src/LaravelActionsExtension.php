@@ -1,6 +1,6 @@
 <?php
 
-namespace Tommica\LaravelActionsScramble;
+namespace J4Wx\LaravelActionsScramble;
 
 use Dedoc\Scramble\Infer\Reflector\ClassReflector;
 use Dedoc\Scramble\Support\Generator\Operation;
